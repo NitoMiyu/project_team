@@ -270,6 +270,7 @@ footer p{
 	margin-top: 15px;
 }
 .pp_txt textarea[name="privacypolicy"] {
+	background-color: white;
 	border: none;
 	padding: 8px 8px;
 	height: 120px;
