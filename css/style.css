@@ -221,31 +221,11 @@ Mainvisual
 /*-------------------------------------------
 Information
 -------------------------------------------*/
-/* #information {
-  margin-bottom: 140px;
-}
-#information .info-date-en {
-  display: block;
-  font-size: 1.5rem;
-}
-#information .info-time-en {
-  display: block;
-  font-size: 1.125rem;
-} */
 #information .info-place {
   font-size: 2rem;
   font-weight: 400;
   margin: 20px 0;
 }
-
-
-
-
-
-
-
-
-
 
 /*-------------------------------------------
 Contact
@@ -273,10 +253,9 @@ Button Arrow
 #contact .btn:hover {
   opacity: 1;
 }
-#contact .btn:hover::before,
-#contact .btn:hover::after {
-  right: -50px;
-}
+
+
+
 
 
 
