@@ -181,6 +181,10 @@ Button Arrow
 /* 
 footer
  */
-footer{
-  font-size: ;
+ footer{
+ width: 78.125%;
+ }
+footer p{
+  font-size: 0.875rem;
+  text-align: left;
 }
