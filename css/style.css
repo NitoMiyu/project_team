@@ -208,10 +208,11 @@ Mainvisual
   display: block;
 }
 #mainvisual img {
+  display: block;
   width: 100vw;
-  height: 100vh;
+  height: auto;
 }
-#mainvisual img:nth-child(2) {
+#mainvisual img:first-child{
   display: none;
 }
 #mainvisual img:last-child {
