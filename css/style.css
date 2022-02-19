@@ -87,7 +87,7 @@ Information
 Gallery
 -------------------------------------------*/
 #gallery {
-  margin-bottom: 480px;
+  margin-bottom: 300px;
 }
 #gallery .list li {
   margin-bottom: 60px;
@@ -106,7 +106,7 @@ Gallery
 Access
 -------------------------------------------*/
 #access {
-  margin-bottom: 480px;
+  margin-bottom: 300px;
   position: relative;
   z-index: 20;
 }
