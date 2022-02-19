@@ -188,6 +188,132 @@ footer p{
   padding: 20px;
 }
 
+
+/*contact.html*/
+
+
+.form_area {
+	padding: 0 20px 25px 20px;
+}
+.mail_form dt {
+	margin-top: 15px;
+	font-size: 18px;
+	color: white;
+}
+
+.mail_form dd {
+	margin-top: 12px;
+/*	border-bottom: solid 1px white;*/
+	padding-bottom: 15px;
+}
+/*.mail_form dt:first-child { margin-top: 0; }*/
+
+
+.mail_form dd input[type="text"],
+.mail_form dd input[type="email"],
+.mail_form dd textarea[name="title"], 
+.mail_form dd textarea[name="message"] {
+	border: none;
+	padding: 8px;
+	font-size: 14px;
+	width: 100%;
+	background-color: white;
+	color: #333;
+	box-sizing: border-box;
+}
+.mail_form dd select[name="about"] {
+	border: none;
+	font-size: 14px;
+	width: 100%;
+	box-sizing: border-box;
+	background-color: black;
+	color: white;
+	-webkit-appearance: none;
+	appearance: none;
+	margin: 0;
+	border-radius: 0;
+	padding: 8px 24px 8px 8px;
+}
+.mail_form dd .select_wrap {
+	display: inline-block;
+	position: relative;
+}
+.mail_form dd .select_wrap::after {
+	content: "";
+	display: block;
+	width: 7px;
+	height: 7px;
+	box-sizing: border-box;
+	border-bottom: solid 2px white;
+	border-right: solid 2px white;
+	position: absolute;
+	top: 50%;
+	right: 8px;
+	transform: translate(0, -50%) rotate(45deg);
+	pointer-events: none;
+}
+
+.mail_form dd textarea[name="title"] {
+	height: 64px;
+	line-height: 1.5;
+}
+
+.mail_form dd textarea[name="message"] {
+	height: 200px;
+	line-height: 1.5;
+}
+.mail_form dd textarea[name="message"]::placeholder {
+	color: #585858;
+	font-size: 13px;
+}
+.pp_txt {
+	margin-top: 15px;
+}
+.pp_txt textarea[name="privacypolicy"] {
+	background-color: white;
+	border: none;
+	padding: 8px 8px;
+	height: 120px;
+	font-size: 12px;
+	line-height: 1.5;
+	width: 100%;
+	color: #585858;
+	box-sizing: border-box;
+/*	font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";*/
+	font-weight: 300;
+}
+.pp_check {
+	margin-top: 8px;
+	font-size: 92.8%;
+}
+.pp_check label {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pp_check label p { margin-left: .2em; }
+
+.send_btn {
+	margin-top: 20px;
+	text-align: center;
+}
+.send_btn input[type="submit"] {
+	background-color: #000;
+	color: #fff;
+	border: none;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 500;
+	padding: 13px 23px;
+	border-radius: 50px;
+	transition: all .4s ease;
+}
+.send_btn input[type="submit"]:disabled {
+	background-color: #999;	
+}
+
+	
+
+
 /* ------------------------------------------------------
 SP版
  ------------------------------------------------------ */
@@ -254,7 +380,6 @@ Button Arrow
 #contact .btn:hover {
   opacity: 1;
 }
-
 
 
 
