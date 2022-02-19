@@ -185,6 +185,7 @@ footer p{
   font-size: 0.875rem;
   text-align: center;
   line-height: 1.5;
+  padding: 20px;
 }
 
 /* ------------------------------------------------------
@@ -216,4 +217,68 @@ Mainvisual
 #mainvisual img:last-child {
   display: none;
 }
+
+/*-------------------------------------------
+Information
+-------------------------------------------*/
+/* #information {
+  margin-bottom: 140px;
+}
+#information .info-date-en {
+  display: block;
+  font-size: 1.5rem;
+}
+#information .info-time-en {
+  display: block;
+  font-size: 1.125rem;
+} */
+#information .info-place {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------
+Contact
+-------------------------------------------*/
+#contact {
+  margin-bottom: 100px;
+  position: relative;
+  z-index: 20;
+}
+#contact .btn {
+  width: 90%;
+  padding: 20px 0;
+  margin: 0 auto 25px auto;
+}
+/*
+Button Arrow
+*/
+#contact .btn::before,
+#contact .btn::after {
+  right: -30px;
+}
+#contact .btn::before {
+  width: 100px;
+}
+#contact .btn:hover {
+  opacity: 1;
+}
+#contact .btn:hover::before,
+#contact .btn:hover::after {
+  right: -50px;
+}
+
+
+
+
 }
