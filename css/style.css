@@ -192,6 +192,8 @@ footer p{
 
 /*contact.html*/
 
+.contacthtml{padding: 0 15%; text-align: left;}
+.contacthtml .section-title{padding: 5% 0 0 0;}
 
 .form_area {
 	padding: 0 20px 25px 20px;
@@ -223,7 +225,8 @@ footer p{
 	box-sizing: border-box;
 }
 .mail_form dd select[name="about"] {
-	border: none;
+
+	border: solid 1px white;
 	font-size: 14px;
 	width: 100%;
 	box-sizing: border-box;
@@ -300,11 +303,11 @@ footer p{
 }
 .send_btn input[type="submit"] {
 	background-color: #000;
+	border: solid 1px white;
 	color: #fff;
-	border: none;
 	font-family: 'Noto Sans JP', sans-serif;
 	font-weight: 500;
-	padding: 13px 23px;
+	padding: 15px 60px;
 	border-radius: 50px;
 	transition: all .4s ease;
 }
@@ -407,9 +410,9 @@ Button Arrow
   opacity: 1;
 }
 
+/*contact.html*/
 
-
-
+	.contacthtml{padding: 0 5%;}
 
 
 }
