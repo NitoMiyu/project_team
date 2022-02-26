@@ -390,12 +390,8 @@ Gallery
 /*-------------------------------------------
 Access
 -------------------------------------------*/
-#access .gmap {
-  height: 0;
-  /* overflow: hidden; */
-  padding-bottom: 56.25%;
-  position: relative;
-  margin-bottom: 100px;
+#access{
+  margin-bottom: 250px;
   }
 
 /*-------------------------------------------
