@@ -142,6 +142,10 @@ Twitter
 #Twitter {
   margin-bottom: 300px;
 }
+#Twitter .timeline {
+margin: 0 auto;
+  width: 60%;
+}
 
 /*-------------------------------------------
 Contact
@@ -406,11 +410,14 @@ Access
 /*-------------------------------------------
 Twitter
 -------------------------------------------*/
+#Twitter{
+margin-bottom: 200px;
+}
 #Twitter .timeline {
-  height: 300px;
+margin: 0 auto;
+  height: 50%;
   width: 60%;
 }
-
 
 /*-------------------------------------------
 Contact
