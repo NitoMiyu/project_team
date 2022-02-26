@@ -106,31 +106,41 @@ Gallery
 /*-------------------------------------------
 Access
 -------------------------------------------*/
-#access {
-  margin-bottom: 300px;
-  position: relative;
-  z-index: 20;
-}
-#access .place {
-  font-size: 1.75rem;
-  font-weight: 400;
-  margin-bottom: 20px;
-}
-#access .address {
-  margin-bottom: 20px;
-}
 #access .contact {
   margin-bottom: 30px;
 }
-#access .btn {
+/* #access .btn {
   border: solid 1px #fff;
   color: #fff;
   display: inline-block;
   padding: 15px 82px;
   transition: 0.3s;
-}
-#access .btn:hover {
+} */
+/* #access .btn:hover {
   background-color: #050507;
+} */
+#access .gmap {
+  height: 0;
+  /* overflow: hidden; */
+  padding-bottom: 56.25%;
+  position: relative;
+  margin-bottom: 200px;
+  }
+  .gmap iframe {
+  position: absolute;
+  left: 15%;
+  top: 10%;
+  bottom: 10%;
+  height: 100%;
+  width: 70%;
+  }
+
+/*-------------------------------------------
+Twitter
+-------------------------------------------*/
+
+#Twitter .h2 {
+  margin-top: 100px;
 }
 
 /*-------------------------------------------
@@ -380,8 +390,20 @@ Gallery
 /*-------------------------------------------
 Access
 -------------------------------------------*/
-#access {
-  margin-bottom: 200px;
+#access .gmap {
+  height: 0;
+  /* overflow: hidden; */
+  padding-bottom: 56.25%;
+  position: relative;
+  margin-bottom: 100px;
+  }
+
+/*-------------------------------------------
+Twitter
+-------------------------------------------*/
+#Twitter .div {
+  height: 300px;
+  width: 60%;
 }
 /*-------------------------------------------
 Contact
