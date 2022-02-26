@@ -105,8 +105,8 @@ Gallery
 /*-------------------------------------------
 Access
 -------------------------------------------*/
-#access .contact {
-  margin-bottom: 30px;
+#access {
+  margin-bottom: 300px;
 }
 /* #access .btn {
   border: solid 1px #fff;
@@ -123,7 +123,8 @@ Access
   /* overflow: hidden; */
   padding-bottom: 56.25%;
   position: relative;
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
+   box-sizing: border-box;
   }
   .gmap iframe {
   position: absolute;
@@ -138,8 +139,8 @@ Access
 Twitter
 -------------------------------------------*/
 
-#Twitter .h2 {
-  margin-top: 100px;
+#Twitter {
+  margin-bottom: 300px;
 }
 
 /*-------------------------------------------
@@ -389,21 +390,19 @@ Gallery
 /*-------------------------------------------
 Access
 -------------------------------------------*/
-#access .gmap {
-  height: 0;
-  /* overflow: hidden; */
-  padding-bottom: 56.25%;
-  position: relative;
-  margin-bottom: 100px;
+#access{
+  margin-bottom: 250px;
   }
 
 /*-------------------------------------------
 Twitter
 -------------------------------------------*/
-#Twitter .div {
+#Twitter .timeline {
   height: 300px;
   width: 60%;
 }
+
+
 /*-------------------------------------------
 Contact
 -------------------------------------------*/
