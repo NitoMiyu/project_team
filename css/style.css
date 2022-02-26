@@ -43,9 +43,8 @@ li {
   /* background: #050507; */
   color: #fff;
   text-align: center;
-  background:url(../img/ricardo-gomez-angel-UD5drKd4H6w-unsplash.jpg) center top/100vw repeat; 
+  background:url(../img/background_white.jpg) center center/cover; 
   }
-
 /*-------------------------------------------
 Mainvisual
 -------------------------------------------*/
@@ -106,8 +105,8 @@ Gallery
 /*-------------------------------------------
 Access
 -------------------------------------------*/
-#access .contact {
-  margin-bottom: 30px;
+#access {
+  margin-bottom: 300px;
 }
 /* #access .btn {
   border: solid 1px #fff;
@@ -124,7 +123,8 @@ Access
   /* overflow: hidden; */
   padding-bottom: 56.25%;
   position: relative;
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
+   box-sizing: border-box;
   }
   .gmap iframe {
   position: absolute;
@@ -139,9 +139,14 @@ Access
 Twitter
 -------------------------------------------*/
 
-/* #Twitter .h2 {
-  margin-top: 100px;
-} */
+
+#Twitter {
+  margin-bottom: 300px;
+}
+#Twitter .timeline {
+margin: 0 auto;
+  width: 60%;
+}
 
 /*-------------------------------------------
 Contact
@@ -324,9 +329,18 @@ footer p{
 .send_btn input[type="submit"]:disabled {
 	background-color: #999;	
 }
+.tohome{
 
-	
+	padding: 20px 20px 5px 20px;
+	text-align: center;
+	justify-content: center;
+	margin: 5% auto 3% auto;
+	font-size: 1.2rem;
+	color: white;
 
+}	
+
+.tohome a{border-bottom: solid 1px white;}
 
 /* ------------------------------------------------------
 SP版
@@ -390,12 +404,8 @@ Gallery
 /*-------------------------------------------
 Access
 -------------------------------------------*/
-#access .gmap {
-  height: 0;
-  /* overflow: hidden; */
-  padding-bottom: 56.25%;
-  position: relative;
-  margin-bottom: 100px;
+#access{
+  margin-bottom: 250px;
   }
 
 /*-------------------------------------------

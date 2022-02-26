@@ -11,6 +11,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
+    <link href="css/sal.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>  
+
+	  
   </head>
 
   <body>
@@ -24,10 +28,10 @@
         </div>
 
         <!-- SiteTitle -->
-        <h1 class="site-title inview fadein">Hello Flower!<br />FA EXHIBITION 2021</h1>
+        <h1 class="site-title" data-sal="slide-up" data-sal-duration="1000" data-sal-easing="easeOutCubic">Hello Flower!<br />FA EXHIBITION 2021</h1>
 
         <!-- Information -->
-        <section id="information" class="inview fadein">
+        <section id="information" class="inview fadein" data-sal="slide-up" data-sal-duration="1000" data-sal-easing="easeOutCubic">
           <h2 class="section-title">INFORMATION</h2>
           <p>
             <span class="info-date-en">2021 JUL 1(THU)-3(SAT)</span>
@@ -42,19 +46,19 @@
 
         <!-- Gallery -->
         <section id="gallery" class="wrapper">
-          <h2 class="section-title inview fadein">GALLERY</h2>
+          <h2 class="section-title inview fadein" data-sal="slide-up" data-sal-duration="1000" data-sal-easing="easeOutCubic">GALLERY</h2>
           <ul class="list">
-            <li class="inview fadein"><img src="img/designflower1.png" alt="" /></li>
-            <li class="inview fadein"><img src="img/designflower2.png" alt="" /></li>
-            <li class="inview fadein"><img src="img/designflower3.png" alt="" /></li>
-            <li class="inview fadein"><img src="img/designflower4.png" alt="" /></li>
-            <li class="inview fadein"><img src="img/designflower5.png" alt="" /></li>
-            <li class="inview fadein"><img src="img/designlower6.png" alt="" /></li>
+            <li class="inview fadein" data-sal="slide-up" data-sal-duration="1000" data-sal-easing="easeOutCubic"><img src="img/designflower1.png" alt="" /></li>
+            <li class="inview fadein" data-sal="slide-up" data-sal-duration="1000" data-sal-easing="easeOutCubic"><img src="img/designflower2.png" alt="" /></li>
+            <li class="inview fadein" data-sal="slide-up" data-sal-duration="1000" data-sal-easing="easeOutCubic"><img src="img/designflower3.png" alt="" /></li>
+            <li class="inview fadein" data-sal="slide-up" data-sal-duration="1000" data-sal-easing="easeOutCubic"><img src="img/designflower4.png" alt="" /></li>
+            <li class="inview fadein" data-sal="slide-up" data-sal-duration="1000" data-sal-easing="easeOutCubic"><img src="img/designflower5.png" alt="" /></li>
+            <li class="inview fadein" data-sal="slide-up" data-sal-duration="1000" data-sal-easing="easeOutCubic"><img src="img/designlower6.png" alt="" /></li>
           </ul>
         </section>
 
         <!-- Access -->
-        <section id="access">
+        <section id="access" data-sal="slide-up" data-sal-duration="1000" data-sal-easing="easeOutCubic">
           <h2 class="section-title">ACCESS</h2>
           <p class="place">PARK SIDE HALL</p>
           <p class="address">
@@ -75,18 +79,23 @@
         <section id="Twitter">
           <h2 class="section-title">Twitter</h2>
         <div class="timeline">
+<<<<<<< HEAD
          <a class="twitter-timeline" data-widthdata-height="600" data-theme="light" href="https://twitter.com/TwitterJP?ref_src=twsrc%5Etfw">Tweets by TwitterJP</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+=======
+         <a class="twitter-timeline" data-width="100%" data-height="700" data-theme="light" href="https://twitter.com/TwitterJP?ref_src=twsrc%5Etfw">Tweets by TwitterJP</a> 
+         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+>>>>>>> 14c5188977aab9945ea255699081370a1e21374d
         </div>
         </section>
 
         <!-- Contact -->
-        <section id="contact" class="wrapper">
+        <section id="contact" class="wrapper" data-sal="slide-up" data-sal-duration="1000" data-sal-easing="easeOutCubic">
           <h2 class="section-title">CONTACT</h2>
           <a class="btn" href="contact.html">出展に関するお問い合わせ</a>
           <a class="btn" href="contact.html">その他のお問い合わせ</a>
         </section>
       </main>
-      <footer>
+      <footer data-sal="slide-up" data-sal-duration="1000" data-sal-easing="easeOutCubic">
       <p>
       FA EXHIBITION<br>
       〒152-0035 東京都目黒区自由が丘1-1-1 PARK SIDE HALL<br />
@@ -95,6 +104,13 @@
             E-mail: info@xxxxxxx.jp
       </p>
       </footer>
+
+		
     </div>
+	<script type="text/javascript" src="js/sal.js"></script>
+	  <script>
+  		sal();
+	  </script>	  
+
   </body>
 </html>
