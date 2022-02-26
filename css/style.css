@@ -64,7 +64,7 @@ Mainvisual
 Information
 -------------------------------------------*/
 #information {
-  margin-bottom: 200px;
+  margin-bottom: 300px;
 }
 #information .info-date-en {
   display: block;
@@ -348,10 +348,30 @@ Mainvisual
 /*-------------------------------------------
 Information
 -------------------------------------------*/
+#information {
+  margin-bottom: 200px;
+}
 #information .info-place {
   font-size: 2rem;
   font-weight: 400;
-  margin: 20px 0;
+}
+/*-------------------------------------------
+Gallery
+-------------------------------------------*/
+#gallery {
+  margin-bottom: 200px;
+}
+#gallery .list li {
+  margin-bottom: 60px;
+}
+#gallery .list li img {
+  width: 48%;
+}
+#gallery .list li:nth-child(odd) {
+  text-align: left;
+}
+#gallery .list li:nth-child(even) {
+  text-align: right;
 }
 
 /*-------------------------------------------
