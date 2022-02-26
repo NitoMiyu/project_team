@@ -324,9 +324,18 @@ footer p{
 .send_btn input[type="submit"]:disabled {
 	background-color: #999;	
 }
+.tohome{
 
-	
+	padding: 20px 20px 5px 20px;
+	text-align: center;
+	justify-content: center;
+	margin: 5% auto 3% auto;
+	font-size: 1.2rem;
+	color: white;
 
+}	
+
+.tohome a{border-bottom: solid 1px white;}
 
 /* ------------------------------------------------------
 SP版
